@@ -1,4 +1,2 @@
-# meowcodes
-meow learns to code
+Hi world, this is my playground.
 
-Hello world! This is meow's little space. I'm learning how to code :D
