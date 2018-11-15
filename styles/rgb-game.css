@@ -1,0 +1,105 @@
+/* 
+font-family: 'Noto Serif KR', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Do Hyeon', sans-serif;
+font-family: 'Open Sans', sans-serif; 
+*/
+
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: 'Do Hyeon', sans-serif;
+  letter-spacing: 1pt;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.top-box {
+  padding: 1em;
+}
+
+.top-box h1 {
+  letter-spacing: 3pt;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.answer-rgb {
+  font-size: 3em;
+}
+
+.mid-console-box {
+  background-color: white;
+  color: black;
+  width: 100%;
+}
+
+.mid-console, 
+.color-box {
+  margin: 0 auto;
+}
+
+.mid-console {
+  max-width: 720px;
+}
+
+.color-box {
+  max-width: 600px;
+}
+
+.mid-console {
+  margin-bottom: 2em;
+}
+
+.mid-console p {
+  display: inline-block;
+  padding: 1em;
+  margin: 0px;
+}
+
+#reset-btn {
+  float: left;
+}
+
+#easy-btn,
+#mid-btn,
+#hard-btn {
+  float: right;
+}
+
+.btn:hover,
+.selected {
+  background-color: black;
+  color: white;
+}
+
+.color-box {
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+}
+
+.color {
+  float: left;
+  width: 28%;
+  padding-top: 28%;
+  margin: 2.5%;
+  border-radius: 15%;
+}
+
+.credit {
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width:100%;
+  height:2em;
+  left: 0;
+  bottom:0;
+  position: fixed;
+}
+
+.credit span {
+  padding-right: 1em;
+  color: rgb(255,255,255,0.3);
+}
