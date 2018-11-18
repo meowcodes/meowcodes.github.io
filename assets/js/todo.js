@@ -8,7 +8,7 @@ $("ul").on("click", "span", function(event) {
 });
 
 $("input[type='text'").keypress(function(event) {
-  if (event.which === 13){
+  if (event.key === "Enter"){
     var inputText = $(this).val();
     $(this).val("");
     $("ul").append('<li><span class="delete"><i class="fas fa-trash"></i></span>' + inputText + "</li>");

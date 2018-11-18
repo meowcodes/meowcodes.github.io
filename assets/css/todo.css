@@ -1,11 +1,16 @@
+html {
+  background-image: linear-gradient(to left, #fff4b7, #ffd6a9, #ffb9b0, #f6a5c3, #c99bd4);
+  min-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 body {
   font-family: 'Enriqueta', serif;
-  background-image: linear-gradient(to left, #fff4b7, #ffd6a9, #ffb9b0, #f6a5c3, #c99bd4);
-  height: 100%;
   color: grey;
 }
 
-.box {
+.todo-box {
   margin: 2em auto;
   width: 50%;
   min-width: 300px;
@@ -13,22 +18,18 @@ body {
   background-color: rgb(255,255,255,0.4);
   border: white solid 9px;
 }
-
-.in-box {
+.todo-in-box {
   padding: 1em;
 }
-
 .title {
   padding: 1em;
   background-color: aliceblue;
   border-bottom: #d7ecff solid 3.5px;
 }
-
 .title h3 {
   margin: 0;
   letter-spacing: 1px;
 }
-
 .add {
   float:right;
 }
