@@ -8,6 +8,7 @@ body {
 }
 
 .spin-box {
+  margin: 3em;
   -webkit-animation: spin 7s linear infinite;
           animation: spin 7s linear infinite;
   -webkit-transform-style: preserve-3d;
