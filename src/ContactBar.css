@@ -1,0 +1,12 @@
+.ContactBar {
+  position: fixed;
+  right: 7vh;
+  bottom: 0;
+  font-size: 1.25rem;
+  font-weight: 100;
+  display: flex;
+  flex-direction: column;
+}
+.ContactBar i {
+  margin: 1rem 0.25rem;
+}
