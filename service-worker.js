@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/meowcodes.github.io/precache-manifest.79c68fbf5b5b2b3cdfb3f945ed26086b.js"
+  "/meowcodes.github.io/precache-manifest.3335d52fde6bbb80436c19bc8c688dbb.js"
 );
 
 workbox.clientsClaim();
